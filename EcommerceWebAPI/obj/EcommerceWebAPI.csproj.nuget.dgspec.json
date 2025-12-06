@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Projects\\EcommerceWebAPI\\EcommerceWebAPI\\EcommerceWebAPI.csproj": {}
+    "D:\\Projects\\Vivek Projects\\.netCoreAPIEcommerce\\EcommerceWebAPI\\EcommerceWebAPI.csproj": {}
   },
   "projects": {
-    "D:\\Projects\\EcommerceWebAPI\\EcommerceWebAPI\\EcommerceWebAPI.csproj": {
+    "D:\\Projects\\Vivek Projects\\.netCoreAPIEcommerce\\EcommerceWebAPI\\EcommerceWebAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Projects\\EcommerceWebAPI\\EcommerceWebAPI\\EcommerceWebAPI.csproj",
+        "projectUniqueName": "D:\\Projects\\Vivek Projects\\.netCoreAPIEcommerce\\EcommerceWebAPI\\EcommerceWebAPI.csproj",
         "projectName": "EcommerceWebAPI",
-        "projectPath": "D:\\Projects\\EcommerceWebAPI\\EcommerceWebAPI\\EcommerceWebAPI.csproj",
+        "projectPath": "D:\\Projects\\Vivek Projects\\.netCoreAPIEcommerce\\EcommerceWebAPI\\EcommerceWebAPI.csproj",
         "packagesPath": "C:\\Users\\Gowthami\\.nuget\\packages\\",
-        "outputPath": "D:\\Projects\\EcommerceWebAPI\\EcommerceWebAPI\\obj\\",
+        "outputPath": "D:\\Projects\\Vivek Projects\\.netCoreAPIEcommerce\\EcommerceWebAPI\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
