@@ -12,6 +12,7 @@ namespace EcommerceWebAPI.Data
         public DbSet<User> Users { get; set; }
         public DbSet<Products> Products { get; set; }
         public DbSet<Uoms> Uoms { get; set; }
+        public DbSet<UomTypes> UomTypes { get; set; }
         public DbSet<ProductImages> ProductImages { get; set; }
 
     }
