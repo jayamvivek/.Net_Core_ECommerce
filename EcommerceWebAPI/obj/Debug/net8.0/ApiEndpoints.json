@@ -153,6 +153,95 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "EcommerceWebAPI.Controllers.UomTypesController",
+    "Method": "CreateUomType",
+    "RelativePath": "api/UomTypes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "uomType",
+        "Type": "EcommerceWebAPI.Models.UomTypes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceWebAPI.Controllers.UomTypesController",
+    "Method": "GetUomTypes",
+    "RelativePath": "api/UomTypes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[EcommerceWebAPI.Models.UomTypes, EcommerceWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "EcommerceWebAPI.Controllers.UomTypesController",
+    "Method": "GetUomTypeById",
+    "RelativePath": "api/UomTypes/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceWebAPI.Controllers.UomTypesController",
+    "Method": "UpdateUomType",
+    "RelativePath": "api/UomTypes/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "updatedUomType",
+        "Type": "EcommerceWebAPI.Models.UomTypes",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "EcommerceWebAPI.Controllers.UomTypesController",
+    "Method": "DeleteUomType",
+    "RelativePath": "api/UomTypes/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "EcommerceWebAPI.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
